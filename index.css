@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 2.8rem;
+}
+
+
+.clear {
+    clear: both;
+}
+
+h2 {
+    font-size: 3.6rem;
+    padding: 5rem 0rem;
+} 
+
+
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 2.4rem;
+}
+
+button {
+ font-size: 2.8rem;   
+}
+
+nav {
+    background: rgba(60, 107, 158); 
+       color: white;
+       padding: 3rem;
+}
+
+nav h1{
+    float: left;
+
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+nav li {
+    float: left;
+    margin: 8rem 2.4rem
+}
+
+.hero-section {
+    background-image: url(/materials/pexels-rajesh-tp-749235-1633525.jpg);
+    height: 80rem;
+    background-size: cover;
+    background-position:center;
+    text-align:center;
+    color: white;
+    padding-top: 8rem;
+    text-shadow: 3px 3px 3px black;
+}
+
+.hero-section button{
+    margin-top: 2rem;
+    padding: 1rem 4rem;
+    background: rgba(60, 107, 158);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.form-section {
+    text-align: center;
+}
+
+form input, form label, form textarea{
+    display: block;
+    font-size: 2.4rem;
+}
+
+form input, form textarea {
+    margin: 2rem auto;
+    width: 50%;
+
+}
+
+form button{
+    margin-bottom: 10rem;
+    padding: 1rem 4rem;
+    background: rgba(60, 107, 158);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
